@@ -64,7 +64,7 @@ export default function Skill() {
     }
     acc[skill.category].push(skill)
     return acc
-  }, {}) as Record<string, typeof skills>
+  }, {} as Record<string, typeof skills>)
 
   return (
     <section className="py-24 bg-stone-50">
