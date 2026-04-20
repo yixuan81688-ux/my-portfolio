@@ -78,7 +78,7 @@ export default function Portfolio() {
                 hidden: { opacity: 0, y: 20 },
                 show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
               }}
-              onClick={() => setActiveVideo('/videos/video1.mov')}
+              onClick={() => setActiveVideo('/videos/video1.mp4')}
             >
               {/* Image */}
               <div className="aspect-video contrast-[0.95] sepia-[.1] hue-rotate-[-15deg] group">
@@ -93,7 +93,7 @@ export default function Portfolio() {
               <div className="p-8">
                 <div className="flex justify-between items-start mb-4">
                   <h3 className="text-2xl font-bold text-[#2C2A29]">AI 银发回忆录视频</h3>
-                  <div onClick={() => setActiveVideo('/videos/video1.mov')} className="text-stone-400 hover:text-stone-600 transition-colors cursor-pointer">
+                  <div onClick={() => setActiveVideo('/videos/video1.mp4')} className="text-stone-400 hover:text-stone-600 transition-colors cursor-pointer">
                     <ExternalLink className="w-5 h-5" />
                   </div>
                 </div>
@@ -111,7 +111,7 @@ export default function Portfolio() {
                 hidden: { opacity: 0, y: 20 },
                 show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
               }}
-              onClick={() => setActiveVideo('/videos/video2.mov')}
+              onClick={() => setActiveVideo('/videos/video2.mp4')}
             >
               {/* Image */}
               <div className="aspect-video contrast-[0.95] sepia-[.1] hue-rotate-[-15deg] group">
@@ -126,7 +126,7 @@ export default function Portfolio() {
               <div className="p-8">
                 <div className="flex justify-between items-start mb-4">
                   <h3 className="text-2xl font-bold text-[#2C2A29]">AI 漫剧短片制作</h3>
-                  <div onClick={() => setActiveVideo('/videos/video2.mov')} className="text-stone-400 hover:text-stone-600 transition-colors cursor-pointer">
+                  <div onClick={() => setActiveVideo('/videos/video2.mp4')} className="text-stone-400 hover:text-stone-600 transition-colors cursor-pointer">
                     <ExternalLink className="w-5 h-5" />
                   </div>
                 </div>
